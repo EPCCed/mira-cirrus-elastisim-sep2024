@@ -10,21 +10,21 @@ import argparse
 
 # Constants - currently for Cirrus CPU
 nCoreTot = 13248 # Total cores available
-timeLower = 5000 # Start time of analysis window
-timeUpper= 23000 # End time of analysis window
+timeLower = 1296000 # Start time of analysis window
+timeUpper= 3750000 # End time of analysis window
 
 # Parse command line arguments
 parser = argparse.ArgumentParser(description='Analyse results of Elastisim scheduler simulation.')
 parser.add_argument('-p', dest='prefix', type=str, action='store', default='elastisim', help='Prefix to use for output files. Default: "elastisim"')
-parser.add_argument('-d', dest='datadir', type=str, action='store', default=".", help='Directory containing output files from Elastisim simulation. Output file must be called "job_statistics.csv". Default: current directory.')
+parser.add_argument('-i', dest='infile', type=str, action='store', default="job_statistics.csv", help='Input CSV file. Default: "job_statistics.csv".')
 args = parser.parse_args()
 
 # Setup the file names
-csvJobStatsName = f'{args.datadir}/job_statistics.csv'
+csvJobStatsName = f'{args.infile}'
 
-usagePlotFile = f'{args.prefix}_measured_load.png'
-usagePlotFilePeriod = f'{args.prefix}_measured_load_period.png'
-statsJSON = f'{args.prefix}_measured_stats.json'
+usagePlotFile = f'{args.prefix}_load.png'
+usagePlotFilePeriod = f'{args.prefix}_load_period.png'
+statsJSON = f'{args.prefix}_stats.json'
 
 csvfile = open(csvJobStatsName, 'r')
 

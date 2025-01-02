@@ -10,8 +10,8 @@ import argparse
 
 # Constants - currently for Cirrus CPU
 nCoreTot = 13248 # Total cores available
-timeLower = 5000 # Start time of analysis window
-timeUpper= 23000 # End time of analysis window
+timeLower = 1296000 # Start time of analysis window
+timeUpper= 3750000 # End time of analysis window
 
 # Parse command line arguments
 parser = argparse.ArgumentParser(description='Analyse results of Elastisim scheduler simulation.')
