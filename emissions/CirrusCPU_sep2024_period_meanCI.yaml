@@ -1,0 +1,68 @@
+Measured:
+    periodLength: 30
+    load: 0.632
+    carbonIntensity: 0.020
+    efficiency: 0.9
+Cirrus CPU Rigid (R):
+    periodLength: 30
+    load: 0.661
+    carbonIntensity: 0.020
+    efficiency: 0.9
+Cirrus CPU Moldable (M):
+    periodLength: 30
+    load: 0.668
+    carbonIntensity: 0.020
+    efficiency: 0.9
+Cirrus CPU M + ARCHER2 10% R:
+    periodLength: 30
+    load: 0.724
+    carbonIntensity: 0.020
+    efficiency: 0.9
+Cirrus CPU M + ARCHER2 20% R:
+    periodLength: 30
+    load: 0.781
+    carbonIntensity: 0.020
+    efficiency: 0.9
+Cirrus CPU M + ARCHER2 30% R:
+    periodLength: 30
+    load: 0.835
+    carbonIntensity: 0.020
+    efficiency: 0.9
+Cirrus CPU M + ARCHER2 40% R:
+    periodLength: 30
+    load: 0.887
+    carbonIntensity: 0.020
+    efficiency: 0.9
+Cirrus CPU M + ARCHER2 50% R:
+    periodLength: 30
+    load: 0.928
+    carbonIntensity: 0.020
+    efficiency: 0.9
+Cirrus CPU M + ARCHER2 60% R:
+    periodLength: 30
+    load: 0.942
+    carbonIntensity: 0.020
+    efficiency: 0.9
+Cirrus CPU M + ARCHER2 70% R:
+    periodLength: 30
+    load: 0.946
+    carbonIntensity: 0.020
+    efficiency: 0.9
+Cirrus CPU M + ARCHER2 80% R:
+    periodLength: 30
+    load: 0.949
+    carbonIntensity: 0.020
+    efficiency: 0.9
+Cirrus CPU M + ARCHER2 90% R:
+    periodLength: 30
+    load: 0.954
+    carbonIntensity: 0.020
+    efficiency: 0.9
+Cirrus CPU M + ARCHER2 100% R:
+    periodLength: 30
+    load: 0.957
+    carbonIntensity: 0.020
+    efficiency: 0.9
+
+
+

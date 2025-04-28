@@ -1,0 +1,141 @@
+
+Cirrus CPU
+
+Architecture
+
+|           Component |     Count |      Unit |   Idle Power (kW) | Loaded Power (kW) |
+|---------------------|-----------|-----------|-------------------|-------------------|
+|    CPU compute node |       354 |     nodes |            77.880 |           145.140 |
+| Interconnect switch |        16 |  switches |             4.000 |             4.000 |
+|Lustre storage (HDD) |   2500000 |        GB |             4.000 |             4.000 |
+| RPOOL storage (SSD) |    233000 |        GB |             0.979 |             0.979 |
+|        Ceph storage |   1500000 |        GB |             7.350 |             7.350 |
+|                 CDU |         2 |       CDU |            32.000 |            32.000 |
+|               Total |           |           |           126.209 |           193.469 |
+
+Sum over all defined periods
+
+
+     Total length = 390 days
+Scope 2 emissions = 34149 kgCO2e (36.77%)
+Scope 3 emissions = 58711 kgCO2e (63.23%)
+  Total emissions = 92859 kgCO2e
+
+
+Load by period
+
+|                        Period |          Load |coreh active | coreh idle |    Output | Energy (kWh) |
+|-------------------------------|---------------|------------|------------|-----------|--------------|
+|                      Measured |          0.63 |    5799030 |    3376650 |   5219127 |       121476 |
+|          Cirrus CPU Rigid (R) |          0.66 |    6065124 |    3110556 |   5458612 |       122881 |
+|       Cirrus CPU Moldable (M) |          0.67 |    6129354 |    3046326 |   5516419 |       123220 |
+|  Cirrus CPU M + ARCHER2 10% R |          0.72 |    6643192 |    2532488 |   5978873 |       125931 |
+|  Cirrus CPU M + ARCHER2 20% R |          0.78 |    7166206 |    2009474 |   6449585 |       128692 |
+|  Cirrus CPU M + ARCHER2 30% R |          0.83 |    7661693 |    1513987 |   6895524 |       131307 |
+|  Cirrus CPU M + ARCHER2 40% R |          0.89 |    8138828 |    1036852 |   7324945 |       133825 |
+|  Cirrus CPU M + ARCHER2 50% R |          0.93 |    8515031 |     660649 |   7663528 |       135811 |
+|  Cirrus CPU M + ARCHER2 60% R |          0.94 |    8643491 |     532189 |   7779142 |       136489 |
+|  Cirrus CPU M + ARCHER2 70% R |          0.95 |    8680193 |     495487 |   7812174 |       136682 |
+|  Cirrus CPU M + ARCHER2 80% R |          0.95 |    8707720 |     467960 |   7836948 |       136828 |
+|  Cirrus CPU M + ARCHER2 90% R |          0.95 |    8753599 |     422081 |   7878239 |       137070 |
+| Cirrus CPU M + ARCHER2 100% R |          0.96 |    8781126 |     394554 |   7903013 |       137215 |
+|                         Total |          0.84 |   99684588 |   19599252 |  89716129 |      1707426 |
+
+Emissions by period (emissions in kgCO2e)
+
+|                        Period | Length (days) |   Scope 2 |   Scope 3 |     Total |
+|-------------------------------|---------------|-----------|-----------|-----------|
+| Measured                      |            30 |      2430 |      4516 |      6946 |
+|                        Active |               |      1535 |      2854 |      4390 |
+|                          Idle |               |       894 |      1662 |      2556 |
+| Cirrus CPU Rigid (R)          |            30 |      2458 |      4516 |      6974 |
+|                        Active |               |      1624 |      2985 |      4610 |
+|                          Idle |               |       833 |      1531 |      2364 |
+| Cirrus CPU Moldable (M)       |            30 |      2464 |      4516 |      6981 |
+|                        Active |               |      1646 |      3017 |      4663 |
+|                          Idle |               |       818 |      1499 |      2318 |
+| Cirrus CPU M + ARCHER2 10% R  |            30 |      2519 |      4516 |      7035 |
+|                        Active |               |      1823 |      3270 |      5093 |
+|                          Idle |               |       695 |      1246 |      1942 |
+| Cirrus CPU M + ARCHER2 20% R  |            30 |      2574 |      4516 |      7090 |
+|                        Active |               |      2010 |      3527 |      5537 |
+|                          Idle |               |       564 |       989 |      1553 |
+| Cirrus CPU M + ARCHER2 30% R  |            30 |      2626 |      4516 |      7142 |
+|                        Active |               |      2193 |      3771 |      5964 |
+|                          Idle |               |       433 |       745 |      1178 |
+| Cirrus CPU M + ARCHER2 40% R  |            30 |      2677 |      4516 |      7193 |
+|                        Active |               |      2374 |      4006 |      6380 |
+|                          Idle |               |       302 |       510 |       813 |
+| Cirrus CPU M + ARCHER2 50% R  |            30 |      2716 |      4516 |      7232 |
+|                        Active |               |      2521 |      4191 |      6712 |
+|                          Idle |               |       196 |       325 |       521 |
+| Cirrus CPU M + ARCHER2 60% R  |            30 |      2730 |      4516 |      7246 |
+|                        Active |               |      2571 |      4254 |      6826 |
+|                          Idle |               |       158 |       262 |       420 |
+| Cirrus CPU M + ARCHER2 70% R  |            30 |      2734 |      4516 |      7250 |
+|                        Active |               |      2586 |      4272 |      6858 |
+|                          Idle |               |       148 |       244 |       391 |
+| Cirrus CPU M + ARCHER2 80% R  |            30 |      2737 |      4516 |      7253 |
+|                        Active |               |      2597 |      4286 |      6883 |
+|                          Idle |               |       140 |       230 |       370 |
+| Cirrus CPU M + ARCHER2 90% R  |            30 |      2741 |      4516 |      7258 |
+|                        Active |               |      2615 |      4308 |      6924 |
+|                          Idle |               |       126 |       208 |       334 |
+| Cirrus CPU M + ARCHER2 100% R |            30 |      2744 |      4516 |      7261 |
+|                        Active |               |      2626 |      4322 |      6948 |
+|                          Idle |               |       118 |       194 |       312 |
+
+Raw emission rates by period (emissions in kgCO2e/coreh)
+
+|                        Period | Length (days) |   Scope 2 |   Scope 3 |     Total |
+|-------------------------------|---------------|-----------|-----------|-----------|
+|                      Measured |            30 |  0.000265 |  0.000492 |  0.000757 |
+|          Cirrus CPU Rigid (R) |            30 |  0.000268 |  0.000492 |  0.000760 |
+|       Cirrus CPU Moldable (M) |            30 |  0.000269 |  0.000492 |  0.000761 |
+|  Cirrus CPU M + ARCHER2 10% R |            30 |  0.000274 |  0.000492 |  0.000767 |
+|  Cirrus CPU M + ARCHER2 20% R |            30 |  0.000281 |  0.000492 |  0.000773 |
+|  Cirrus CPU M + ARCHER2 30% R |            30 |  0.000286 |  0.000492 |  0.000778 |
+|  Cirrus CPU M + ARCHER2 40% R |            30 |  0.000292 |  0.000492 |  0.000784 |
+|  Cirrus CPU M + ARCHER2 50% R |            30 |  0.000296 |  0.000492 |  0.000788 |
+|  Cirrus CPU M + ARCHER2 60% R |            30 |  0.000298 |  0.000492 |  0.000790 |
+|  Cirrus CPU M + ARCHER2 70% R |            30 |  0.000298 |  0.000492 |  0.000790 |
+|  Cirrus CPU M + ARCHER2 80% R |            30 |  0.000298 |  0.000492 |  0.000790 |
+|  Cirrus CPU M + ARCHER2 90% R |            30 |  0.000299 |  0.000492 |  0.000791 |
+| Cirrus CPU M + ARCHER2 100% R |            30 |  0.000299 |  0.000492 |  0.000791 |
+
+Effective emission rates by period (emissions in kgCO2e/coreh)
+
+|                        Period |          Load |   Scope 2 |   Scope 3 |     Total |
+|-------------------------------|---------------|-----------|-----------|-----------|
+|                      Measured |          0.63 |  0.000419 |  0.000779 |  0.001198 |
+|          Cirrus CPU Rigid (R) |          0.66 |  0.000405 |  0.000745 |  0.001150 |
+|       Cirrus CPU Moldable (M) |          0.67 |  0.000402 |  0.000737 |  0.001139 |
+|  Cirrus CPU M + ARCHER2 10% R |          0.72 |  0.000379 |  0.000680 |  0.001059 |
+|  Cirrus CPU M + ARCHER2 20% R |          0.78 |  0.000359 |  0.000630 |  0.000989 |
+|  Cirrus CPU M + ARCHER2 30% R |          0.83 |  0.000343 |  0.000589 |  0.000932 |
+|  Cirrus CPU M + ARCHER2 40% R |          0.89 |  0.000329 |  0.000555 |  0.000884 |
+|  Cirrus CPU M + ARCHER2 50% R |          0.93 |  0.000319 |  0.000530 |  0.000849 |
+|  Cirrus CPU M + ARCHER2 60% R |          0.94 |  0.000316 |  0.000522 |  0.000838 |
+|  Cirrus CPU M + ARCHER2 70% R |          0.95 |  0.000315 |  0.000520 |  0.000835 |
+|  Cirrus CPU M + ARCHER2 80% R |          0.95 |  0.000314 |  0.000519 |  0.000833 |
+|  Cirrus CPU M + ARCHER2 90% R |          0.95 |  0.000313 |  0.000516 |  0.000829 |
+| Cirrus CPU M + ARCHER2 100% R |          0.96 |  0.000313 |  0.000514 |  0.000827 |
+
+Efficiency emission rates by period (emissions in kgCO2e/output)
+
+|                        Period |          Load |    Efficiency |   Scope 2 |   Scope 3 |     Total |
+|-------------------------------|---------------|---------------|-----------|-----------|-----------|
+|                      Measured |          0.63 |          0.90 |  0.000466 |  0.000865 |  0.001331 |
+|          Cirrus CPU Rigid (R) |          0.66 |          0.90 |  0.000450 |  0.000827 |  0.001278 |
+|       Cirrus CPU Moldable (M) |          0.67 |          0.90 |  0.000447 |  0.000819 |  0.001265 |
+|  Cirrus CPU M + ARCHER2 10% R |          0.72 |          0.90 |  0.000421 |  0.000755 |  0.001177 |
+|  Cirrus CPU M + ARCHER2 20% R |          0.78 |          0.90 |  0.000399 |  0.000700 |  0.001099 |
+|  Cirrus CPU M + ARCHER2 30% R |          0.83 |          0.90 |  0.000381 |  0.000655 |  0.001036 |
+|  Cirrus CPU M + ARCHER2 40% R |          0.89 |          0.90 |  0.000365 |  0.000617 |  0.000982 |
+|  Cirrus CPU M + ARCHER2 50% R |          0.93 |          0.90 |  0.000354 |  0.000589 |  0.000944 |
+|  Cirrus CPU M + ARCHER2 60% R |          0.94 |          0.90 |  0.000351 |  0.000581 |  0.000931 |
+|  Cirrus CPU M + ARCHER2 70% R |          0.95 |          0.90 |  0.000350 |  0.000578 |  0.000928 |
+|  Cirrus CPU M + ARCHER2 80% R |          0.95 |          0.90 |  0.000349 |  0.000576 |  0.000925 |
+|  Cirrus CPU M + ARCHER2 90% R |          0.95 |          0.90 |  0.000348 |  0.000573 |  0.000921 |
+| Cirrus CPU M + ARCHER2 100% R |          0.96 |          0.90 |  0.000347 |  0.000571 |  0.000919 |
+

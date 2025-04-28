@@ -2,20 +2,20 @@
     "cirrus-cpu-R": {
         "nJobStart": 40375,
         "minLoad": "756",
-        "maxLoad": "13248",
-        "medianLoad": "8928",
-        "meanLoad": "8761",
-        "usageIncluded": 5597553.145555556,
-        "usageExcluded": 2451071.526111111,
-        "usageFraction": 0.6613366192764125,
-        "residualWork": 2379402.7580555556,
-        "minWait": -2.9103888888888886e-13,
+        "maxLoad": "12745",
+        "medianLoad": "9112",
+        "meanLoad": "8760",
+        "usageIncluded": 5596931.424722223,
+        "usageExcluded": 2451704.79,
+        "usageFraction": 0.6612631645465763,
+        "residualWork": 2380035.9819444446,
+        "minWait": -3.8805e-13,
         "medianWait": 0.0,
-        "maxWait": 23.441666666666666,
-        "meanWait": 1.632395982112143,
+        "maxWait": 27.016944444444444,
+        "meanWait": 2.138416566907465,
         "minTurnaroundTime": 0.0002777777777777778,
-        "medianTurnaroundTime": 0.10277777777777777,
+        "medianTurnaroundTime": 0.2722222222222222,
         "maxTurnaroundTime": 246.8736111111111,
-        "meanTurnaroundTime": 7.8095735122119025
+        "meanTurnaroundTime": 8.315594097007224
     }
 }
